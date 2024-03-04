@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bordas_arredondadas"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/txt_saida_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        tools:text="Titulo"/>
+
+    <TextView
+        android:id="@+id/txt_saida_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_saida_titulo"
+        android:textColor="#393939"
+        tools:text="Descrição"/>
+
+    <TextView
+        android:id="@+id/txt_saida_tempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_saida_descricao"
+        android:textSize="12sp"
+        android:gravity="end"
+        android:textColor="#858484"
+        tools:text="MAR 04 2024 "/>
+
+</RelativeLayout>
